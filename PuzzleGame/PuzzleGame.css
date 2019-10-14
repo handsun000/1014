@@ -1,0 +1,21 @@
+body{
+	background-color: #DDDDDD;
+}
+
+#puzzle {
+	background-color: white;
+	border: 1px solid #333333;
+	width: 400px;
+	height: 400px;
+}
+
+#puzzle .cell{
+	border: 1px solid #cccccc;
+	width: 100px;
+	height: 100px;
+	background: white;
+	float: left;/*정렬하기 위한 방벙*/
+	box-sizing: border-box; /*이걸 추가하면 박스가 4개로 딱 맞추어짐*/
+	text-align: center;
+	line-height: 100px;
+}
